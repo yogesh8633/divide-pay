@@ -1,0 +1,53 @@
+@import 'variables.scss';
+.header{
+  margin: 4% 0px;
+}
+.header-logo {
+  width: 168px;
+  height: 49px;
+}
+.aboutUs {
+  padding: 10px;
+  align-items: center;
+  font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.3246px;
+  line-height: 22px;
+  color: #ffffff;
+  border-radius: 35.8858px 0px 0px 35.8858px;
+  background: $color-secondary;
+}
+.contactUs {
+  padding: 10px;
+  align-items: center;
+  font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.3246px;
+  line-height: 22px;
+  color: #ffffff;
+  background: $color-secondary;
+}
+
+.break{
+
+  align-items: center;
+border: 0.2px solid #FFFFFF;
+transform: rotate(180deg);
+
+}
+
+.learnMore{
+  margin-left: 35px;
+  padding: 10px;
+  align-items: center;
+  font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18.3246px;
+  line-height: 22px;
+  color: #ffffff;
+background: $color-secondary;
+border-radius: 0px 30.2728px 30.2728px 0px;
+}

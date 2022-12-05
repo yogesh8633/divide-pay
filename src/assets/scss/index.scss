@@ -1,0 +1,463 @@
+@import "header.scss";
+@import "variables.scss";
+//common css
+.m-10{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.color{
+  color: #ffbe9d;
+}
+.bg-img{
+  background: url(../Group.png);}
+//Home CSS Starts
+.home {
+  margin-top: 10%;
+}
+.home-img {
+  width: 690px;
+  height: 498px;
+  background: url(../6081333.png);
+  mix-blend-mode: darken;
+}
+
+.home-text {
+  width: 475px;
+  height: 220px;
+  // font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 100%;
+  /* or 55px */
+  color: $color_secondary;
+}
+
+.line {
+  border: 2px solid black;
+  width: 45%;
+  opacity: 1;
+}
+.mountain {
+  border-radius: 50%;
+  position: relative;
+}
+
+.mountain.front {
+  background: linear-gradient(
+    179.02deg,
+    #ffbe9d 7.11%,
+    rgba(255, 225, 210, 0.460417) 71.64%,
+    rgba(255, 255, 255, 0) 99.16%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 250px;
+  height: 250px;
+  margin-left: 26%;
+  margin-top: -8%;
+  box-shadow: 200px 40px 0 70px rgba(255, 190, 157, 0.5),
+    450px 0px 0 20px rgba(255, 190, 157, 0.56);
+  z-index: -1;
+ 
+  position: absolute;
+}
+
+.mountain.back {
+  position: absolute;
+  background: linear-gradient(
+    179.02deg,
+    #ffbe9d 7.11%,
+    rgba(255, 225, 210, 0.460417) 71.64%,
+    rgba(255, 255, 255, 0) 99.16%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  width: 250px;
+  height: 250px;
+  margin-left: 74%;
+  margin-top: -8%;
+  box-shadow: 200px 40px 0 70px rgba(255, 190, 157, 0.5),
+    450px 0px 0 20px rgba(255, 190, 157, 0.56);
+  z-index: -1;
+
+}
+.scrollMore {
+
+  width: 316.73px;
+  height: 29.77px;
+  // font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 28.5767px;
+  line-height: 103.5%;
+  /* identical to box height, or 30px */
+  color: #b0b0b0;
+}
+
+.dot1 {
+  width: 54px;
+  height: 54px;
+  margin-left: 478px;
+  margin-top: 37px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 190, 157, 0) 0%,
+    #ffbe9d 70.6%,
+    #a47d69 123.96%
+  );
+  border-radius: 50%;
+  display: -webkit-box;
+}
+
+.dot2 {
+  width: 38px;
+  height: 38px;
+  margin-left: 85%;
+  margin-top: 2%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 190, 157, 0) 0%,
+    #ffbe9d 70.6%,
+    #a47d69 123.96%
+  );
+  border-radius: 50%;
+  display: -webkit-box;
+}
+.dot3 {
+  width: 20px;
+  height: 20px;
+  margin-left: 93%;
+  margin-top: -14%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 190, 157, 0) 0%,
+    #ffbe9d 70.6%,
+    #a47d69 123.96%
+  );
+  border-radius: 50%;
+  display: -webkit-box;
+}
+
+//Home CSS Ends
+
+//Instant Reward CSS Starts
+.heading {
+    margin-top: 10% !important;
+  // font-family: Tomato Grotesk;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 55px;
+  color: #000000;
+}
+.line-instantreward {
+    border: 2px solid black;
+    width: 15%;
+    opacity: 1;
+    display: inline-block;
+  }
+
+  .sub-heading{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 43px;
+    color: #8E8E8E;
+  }
+
+  .coin{
+    background: url(../Coin.png);
+    transform: rotate(4deg);
+    float: right;
+width: 208px;
+height: 208px;
+
+  }
+
+
+
+
+//Easiest Interface CSS starts
+.heading-interface {
+  position: relative;
+// font-family: Tomato Grotesk;
+font-style: normal;
+font-weight: 600;
+line-height: 64px;
+/* identical to box height */
+text-align: left;
+font-size: 53.6905px;
+color:black;  
+background: #FDFDFD;
+box-shadow: inset 5px 5px 26px -8px rgba(38, 50, 56, 0.05);
+border-radius: 23px;
+width: 544px;
+height: 445px;
+margin-top: 6%;
+    margin-left: 11%;
+    padding: 9%;
+}
+.atom{
+
+  margin-left: -7%;
+    margin-top: -10%;
+    position: absolute;
+    z-index: 1;
+}
+
+.subtext{
+  font-weight: 300;
+font-size: 30px;
+line-height: 36px;
+
+color: #727272;
+}
+.line-interface{
+  border: 2px solid black;
+  width: 15%;
+  opacity: 1;
+ margin-top: 0%;
+}
+.font-weight-bold{
+  font-weight: 600;
+}
+
+
+//Easiest Interface CSS ends
+
+//Credit limit CSS Starts
+.sword{
+  width: 130%;
+}
+.line-CreditLimit{
+    margin-top: 100%;
+    border: 2px solid black;
+    width: 55%;
+    opacity: 1;
+    float: right;
+}
+.credit-text{
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 58px;
+text-align: center;
+color: #000000;     
+box-shadow: 6px 9px 36px -8px rgba(0, 0, 0, 0.13);
+border-radius: 23px;
+width: 346px !important;
+height: 394px !important;
+float: right;
+height: 100% !important;
+}
+.credit-img{
+  margin-top: -29%;
+}
+.m-l-10{
+  margin-left: 10% !important;   
+}
+//Credit Limit Css Ends
+
+//Manage Expense CSS Starts
+
+.pattern{
+  position: absolute;
+  width: 46%;
+  margin-left: -21%;
+  margin-top: -26%;
+}
+
+.expenses{
+  background: #FFFFFF;
+  position: relative;
+  box-shadow: inset 5px 5px 26px rgb(0 0 0 / 5%);
+  border-radius: 23px;
+  width: 395px;
+  height: 393px;
+  margin-top: 23%;
+  margin-left: 18%;
+}
+.expense-head{
+  font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 89%;
+/* or 32px */
+text-transform: capitalize;
+color: #242424;
+padding:8%;
+}
+
+.content-expense{
+  font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 100%;
+/* or 18px */
+color: #263238;
+margin-top: 10%;
+}
+
+.line-expense{
+  border: 2px solid #ffbe9d;
+  width: 40%;
+  opacity: 1;
+ color: #ffbe9d;
+ margin-left: 42%;
+}
+
+.expenses-img{
+  position: absolute;
+}
+
+.easier{
+  background: #242424;
+box-shadow: 0px 40.947px 29.6212px -31.3636px rgba(255, 190, 157, 0.28);
+border-radius: 15.6818px;
+position: relative;
+width: 460px;
+height: 123.71px;
+margin-top: -29%;
+// font-style: normal;
+font-weight: 200;
+font-size: 30px;
+line-height: 81.5%;
+/* or 26px */
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+margin-left: -10%;
+}
+.size{
+  font-weight: 500;
+font-size: 50px;
+line-height: 81.5%;
+}
+
+//Manage Expense CSS Ends
+
+//Super Card Css Starts
+
+.line-supercard{
+  border: 4px solid #FFBE9D;
+  width: 60%;
+  opacity: 1;
+  display: inline-block;
+  color: #ffbe9d;
+  align-self: right;
+}
+
+.heading-supercard{
+  font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 100%;
+/* or 60px */
+text-align: right;
+text-transform: uppercase;
+color: #000000;
+text-align: right;
+padding-right: 10%;
+padding-top: 12%;
+}
+//Super Card Css Ends
+
+//Superdividepay card css starts
+.dividepaycard{
+width: 769px;
+margin-left: -21%;
+filter: drop-shadow(7.42197px 7.42197px 29.6879px rgba(0, 0, 0, 0.06));
+border-radius: 21.3382px 21.3382px 0px 0px;
+z-index: 0;
+}
+
+.heading-card{
+  font-style: normal;
+font-weight: bold;
+font-size: 99.2432px;
+line-height: 89%;
+/* or 88px */
+text-transform: uppercase;
+z-index: 1;
+color: #000000;
+padding-top: 7%;
+padding-left: 12% !important;
+}
+
+.btn-card{
+  font-style: normal !important;
+font-weight: bold !important;
+font-size: 18.7546px !important;
+line-height: 100% !important;
+/* identical to box height, or 19px */
+text-transform: uppercase;
+color: #FFFFFF;
+height: 12%;
+background-color: #ffbe9d !important;
+border: #ffbe9d !important;
+padding: 3% !important;
+}
+
+//superdividepay card css ends
+
+//ShopOnline CSS Starts
+
+.heading-shopOnline{
+    font-style: normal;
+font-weight: 500;
+font-size: 72px;
+line-height: 89%;
+/* or 64px */
+color: #000000;
+margin-top: 18% !important;
+}
+
+.line-shopOnline{
+    border: 2px solid black;
+  width: 55%;
+  opacity: 1;
+  display: inline-block;
+}
+
+
+//ShopOnline CSS Ends
+
+//About US CSS Starts
+
+.heading-aboutUs{
+    text-align: center;
+    font-style: normal;
+font-weight: bold;
+font-size: 28px;
+line-height: 100%;
+/* identical to box height, or 28px */
+text-transform: uppercase;
+color: #FFBE9D;
+}
+.content-aboutUs{
+    background: #FFFFFF;
+box-shadow: inset 5.81522px 5.81522px 11.6304px -5.81522px rgba(0, 0, 0, 0.09);
+border-radius: 11.6304px;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 137%;
+/* or 27px */
+
+text-align: center;
+text-transform: capitalize;
+color: #000000;
+padding: 5%;
+margin: 0 10% 10%;
+}
+
+.btn-aboutUs{
+    justify-content: space-evenly;
+    display: flex;
+    margin-bottom: 6%;
+}
+
+.w-15{
+    width: 15%;
+}
+
+//Abous Us CSS Ends
